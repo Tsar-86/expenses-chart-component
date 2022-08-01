@@ -3,6 +3,8 @@
 - Cyan: hsl(186, 34%, 60%) 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 
 * {
 	box-sizing: border-box;
@@ -15,6 +17,7 @@ body {
     align-items: center;
     min-height: 100%;
     background-color: hsl(10, 79%, 94%);
+    font-family: 'DM Sans', sans-serif;
 }
 
 p {
@@ -25,7 +28,7 @@ p {
 
 h3 {
     font-size: 35px;
-    margin: 8px 0 0;
+    margin: 3px 0 0;
 }
 
 h2 {
@@ -46,6 +49,14 @@ h2 {
     border-radius: 1.5rem;
 }
 
+.balance {
+    color:hsl(9, 100%, 94%);
+}
+
+.balance > h2 {
+    color: white;
+}
+
 .balance_card {
     display: flex;
     justify-content: center;
@@ -58,7 +69,7 @@ h2 {
 
 #chart__title {
     display: flex;
-    justify-content: center;
+    margin-left: 1.7em;
 } 
 
 ul {
@@ -85,18 +96,31 @@ li:hover {
 .amount {
     display: flex;
     justify-content: space-between;
-    width: 350px;
-    /* padding: 30px 40px; */
-    /* margin-bottom: 50px; */
+    width: 410px;
 }
 
 #dash {
-    width: 350px;
+    width: 400px;
     height: 1.5px;
     background-color: hsl(9, 100%, 94%);;
     margin-bottom: 25px;
 }
 
 .left_side {
-    text-align: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.attribution {
+    padding-top: 20px;
+}
+
+#gray__color {
+    color: gray;
+}
+
+#growth__number {
+    font-weight: bold;
 }

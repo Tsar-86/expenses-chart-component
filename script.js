@@ -37,7 +37,7 @@ let chartData = [
 
 let ul = document.createElement('ul');
     
-for (i = 0; i < 6; i++) {
+for (i = 0; i <= 6; i++) {
   let div = document.createElement('div');
   ul.append(div);
         
@@ -46,6 +46,7 @@ for (i = 0; i < 6; i++) {
         
   let p = document.createElement('p');
   p.innerText = chartData[i].day;
+  p.style.color = "gray";
   div.appendChild(li);
   div.appendChild(p);
 };
