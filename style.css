@@ -1,0 +1,102 @@
+/* 
+- Soft red: hsl(10, 79%, 65%)
+- Cyan: hsl(186, 34%, 60%) 
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: hsl(10, 79%, 94%);
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 35px;
+    margin: 8px 0 0;
+}
+
+h2 {
+    margin: 0.5rem 0;
+}
+
+.container {
+    width: 470px;
+    margin-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 50px;
+    border-radius: 1.5rem;
+}
+
+.balance_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1.5rem;
+    height: 350px;
+}
+
+#chart__title {
+    display: flex;
+    justify-content: center;
+} 
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: 470px;
+    align-items: flex-end; 
+    margin: 15px 10px;
+    padding: 0px;
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+    width: 40px;  
+}
+
+li:hover {
+    background-color: hsl(186, 34%, 60%)
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    /* padding: 30px 40px; */
+    /* margin-bottom: 50px; */
+}
+
+#dash {
+    width: 350px;
+    height: 1.5px;
+    background-color: hsl(9, 100%, 94%);;
+    margin-bottom: 25px;
+}
+
+.left_side {
+    text-align: flex-end;
+}
